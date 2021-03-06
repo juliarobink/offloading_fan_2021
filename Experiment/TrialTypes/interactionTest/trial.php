@@ -85,17 +85,17 @@
     </style>
     
     <?php
-        $position_range_trial_one = array(4,5,6,7,8,9,10,11,12,13,14,15,16,17,18);
-        $position_range_trial_two = array(36,37,38,39,40,41,42,43,44,45,46,47,48,49,50);
-        $position_range_trial_three = array(68,69,70,71,72,73,74,75,76,77,78,79,80,81,82);
+        $position_range_trial_one = array(4,5,6,7,8,9,10,11,12,13,14,15);
+        $position_range_trial_two = array(30,31,32,33,34,35,36,37,38,39,40,41);
+        $position_range_trial_three = array(56,57,58,59,60,61,62,63,64,65,66,67);
         $total_num_saves_trial_one = 0;
         $total_num_saves_trial_two = 0;
         $total_num_saves_trial_three = 0;
         echo "<div class='savedItemsArea'>";
         echo "<ol>";
         echo "<h2 style='padding-top:10px;margin-bottom:8px;'><strong>Saved Items:</strong></h2>";
-        if($_SESSION['Position'] >= 20 && $_SESSION['Position'] <= 34) {
-            if($_SESSION['Position'] == 20) {
+        if($_SESSION['Position'] >= 17 && $_SESSION['Position'] <= 28) {
+            if($_SESSION['Position'] == 17) {
                 foreach($position_range_trial_one as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -115,8 +115,8 @@
                 }
             } 
             echo "<p><strong>Total Number of Items Saved: " . $total_num_saves_trial_one . "</strong></p>";
-        } elseif($_SESSION['Position'] >= 52 && $_SESSION['Position'] <= 66) {
-            if($_SESSION['Position'] == 52) {
+        } elseif($_SESSION['Position'] >= 43 && $_SESSION['Position'] <= 54) {
+            if($_SESSION['Position'] == 43) {
                 foreach($position_range_trial_two as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -136,8 +136,8 @@
                 }
             } 
             echo "<p><strong>Total Number of Items Saved: " . $total_num_saves_trial_two . "</strong></p>";
-        } elseif($_SESSION['Position'] >= 84 && $_SESSION['Position'] <= 98) {
-            if($_SESSION['Position'] == 84) {
+        } elseif($_SESSION['Position'] >= 69 && $_SESSION['Position'] <= 80) {
+            if($_SESSION['Position'] == 69) {
                 foreach($position_range_trial_three as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -188,9 +188,6 @@
                 <option>nausea</option>
                 <option>diarrhea</option>
                 <option>arm pain</option>
-                <option>insomnia</option>
-                <option>hives</option>
-                <option>anxiety</option>
             </select>
         </div>
     </div>

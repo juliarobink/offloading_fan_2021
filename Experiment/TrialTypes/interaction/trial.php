@@ -20,10 +20,10 @@
     if($_SESSION['Position'] == 4) {
         $numSaves = $startingcounter;
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
-    } elseif($_SESSION['Position'] == 36) {
+    } elseif($_SESSION['Position'] == 30) {
         $numSaves = $startingcounter;
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
-    } elseif($_SESSION['Position'] == 68) {
+    } elseif($_SESSION['Position'] == 56) {
         $numSaves = $startingcounter;
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     } else {
