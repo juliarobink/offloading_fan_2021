@@ -98,17 +98,17 @@
             if($_SESSION['Position'] == 17) {
                 foreach($position_range_trial_one as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         $total_num_saves_trial_one++;
                     }
                 }
             } else {
                 foreach($position_range_trial_one as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $value] == "CHECKED") {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         }
                         $total_num_saves_trial_one++;
                     }
@@ -119,17 +119,17 @@
             if($_SESSION['Position'] == 43) {
                 foreach($position_range_trial_two as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         $total_num_saves_trial_two++;
                     }
                 }
             } else {
                 foreach($position_range_trial_two as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $value] == "CHECKED") {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         }
                         $total_num_saves_trial_two++;
                     }
@@ -140,17 +140,17 @@
             if($_SESSION['Position'] == 69) {
                 foreach($position_range_trial_three as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         $total_num_saves_trial_three++;
                     }
                 }
             } else {
                 foreach($position_range_trial_three as $key => $value) {
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $value] == "CHECKED") {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
-                            echo "<li><input type='checkbox' name='itemcheckbox" . $value . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
+                            echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         }
                         $total_num_saves_trial_three++;
                     }
