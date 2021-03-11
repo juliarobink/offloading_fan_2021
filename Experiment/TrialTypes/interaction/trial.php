@@ -158,7 +158,7 @@
         if(numSavesRemaining <= 0)
         {
             document.getElementById("savebuttdo").disabled = true;
-            document.getElementById("savebuttdont").innerHTML = "Continue &raquo;";
+            document.getElementById("savebuttdont").disabled = true;
         }
 
         var phaseStartTime;
