@@ -3,6 +3,7 @@
 
     // check if current interaction has a space
     $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
+    echo "<h1>Static Interaction Parsed: " . $static_interaction . "</h1>";
     $is_space_detected = false;    
     for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
         if($static_interaction[$jjj] = " ") {
