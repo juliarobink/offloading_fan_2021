@@ -105,7 +105,7 @@
                         $is_space_detected = 1;
                     }
 
-                    if($is_spaced_detected == 1) {
+                    if($is_space_detected == 1) {
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
@@ -126,7 +126,7 @@
                         $is_space_detected = 1;
                     }
 
-                    if($is_spaced_detected == 1) {
+                    if($is_space_detected == 1) {
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
