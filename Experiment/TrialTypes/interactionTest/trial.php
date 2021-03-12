@@ -1,6 +1,21 @@
 <?php
     $compTime = 5;        // time in seconds to use for 'computer' timing
 
+    // check if current interaction has a space
+    $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
+    $is_space_detected = false;    
+    for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
+        if($static_interaction[$jjj] = " ") {
+            $is_space_detected = true;
+        }
+    }
+
+    if($is_spaced_detected) {
+        $static_interaction = str_replace(' ', '_', $static_interaction);
+    }
+
+    echo "<h1>" . $static_interaction . "</h1>";
+    
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
     $answers = explode('|', $answer);
     $cues = explode('|', $cue);
