@@ -117,7 +117,7 @@
                     }
 
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $static_interaction] == "CHECKED") {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -150,7 +150,7 @@
                     }
 
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $static_interaction] == "CHECKED") {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -183,7 +183,7 @@
                             $static_interaction = str_replace(' ', '_', $static_interaction);
                         }
 
-                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
+                        if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $static_interaction] == "CHECKED") {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
                         } else {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $static_interaction . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
