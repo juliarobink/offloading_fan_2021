@@ -1,7 +1,5 @@
 <?php
     $compTime = 5;        // time in seconds to use for 'computer' timing
-
-    // check if current interaction has a space
     
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
     $answers = explode('|', $answer);
@@ -101,19 +99,17 @@
                 foreach($position_range_trial_one as $key => $value) {
                     
                     $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
-                    echo "<h1>Static Interaction Parsed: " . $static_interaction . "</h1>";
-                    $is_space_detected = false;    
-                    for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
-                        if($static_interaction[$jjj] = " ") {
-                            $is_space_detected = true;
-                        }
+                    echo "<p>Static Interaction Parsed: " . $static_interaction . "</p>";
+                    $is_space_detected = 0; 
+                    if(preg_match('/\s/', $static_interaction)) {
+                        $is_space_detected = 1;
                     }
 
-                    if($is_spaced_detected) {
+                    if($is_spaced_detected == 1) {
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
-                    echo "<h1>" . $static_interaction . "</h1>";
+                    echo "<p>" . $static_interaction . "</p>";
 
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -124,19 +120,17 @@
                 foreach($position_range_trial_one as $key => $value) {
 
                     $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
-                    echo "<h1>Static Interaction Parsed: " . $static_interaction . "</h1>";
-                    $is_space_detected = false;    
-                    for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
-                        if($static_interaction[$jjj] = " ") {
-                            $is_space_detected = true;
-                        }
+                    echo "<p>Static Interaction Parsed: " . $static_interaction . "</p>";
+                    $is_space_detected = 0; 
+                    if(preg_match('/\s/', $static_interaction)) {
+                        $is_space_detected = 1;
                     }
 
-                    if($is_spaced_detected) {
+                    if($is_spaced_detected == 1) {
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
-                    echo "<h1>" . $static_interaction . "</h1>";
+                    echo "<p>" . $static_interaction . "</p>";
 
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
@@ -154,7 +148,7 @@
                 foreach($position_range_trial_two as $key => $value) {
 
                     $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
-                    echo "<h1>Static Interaction Parsed: " . $static_interaction . "</h1>";
+                    echo "<p>Static Interaction Parsed: " . $static_interaction . "</p>";
                     $is_space_detected = false;    
                     for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
                         if($static_interaction[$jjj] = " ") {
@@ -166,7 +160,7 @@
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
-                    echo "<h1>" . $static_interaction . "</h1>";
+                    echo "<p>" . $static_interaction . "</p>";
 
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED'><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
@@ -177,7 +171,7 @@
                 foreach($position_range_trial_two as $key => $value) {
 
                     $static_interaction = $_SESSION['Trials'][$value]['Response']['interactionstatic'];
-                    echo "<h1>Static Interaction Parsed: " . $static_interaction . "</h1>";
+                    echo "<p>Static Interaction Parsed: " . $static_interaction . "</p>";
                     $is_space_detected = false;    
                     for($jjj = 1; $jjj < strlen($static_interaction)-1; $jjj++) {
                         if($static_interaction[$jjj] = " ") {
@@ -189,8 +183,8 @@
                         $static_interaction = str_replace(' ', '_', $static_interaction);
                     }
 
-                    echo "<h1>" . $static_interaction . "</h1>";
-                    
+                    echo "<p>" . $static_interaction . "</p>";
+
                     if($_SESSION['Trials'][$value]['Response']['numsavestatus'] == "SAVE") {
                         if($_SESSION['Trials'][$_SESSION['Position']-1]['Response']["itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic']] == "CHECKED") {
                             echo "<li><input type='checkbox' name='itemcheckbox" . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "' value='CHECKED' checked><del>" . $_SESSION['Trials'][$value]['Response']['drugonestatic'] . " + " . $_SESSION['Trials'][$value]['Response']['drugtwostatic'] . " = " . $_SESSION['Trials'][$value]['Response']['interactionstatic'] . "</del></h1>";
