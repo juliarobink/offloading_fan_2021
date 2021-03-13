@@ -34,7 +34,7 @@
     $useConditionNames     = TRUE;              // Use the entry under "Column Description" rather than "Number" in the condition selector
     $showConditionInfo     = TRUE;              // Show the stimuli and procedure file for each condition when hovering over the options
     $welcome        = 'Welcome to the experiment!';
-    $expDescription = '<p> This experiment will run for approximately 20 minutes.  Your goal is to learn some information. </p>';
+    $expDescription = '<p> This experiment will run for approximately 30 minutes.  Your goal is to learn some information. </p>';
     $askForLogin    = '<p> Please enter your TCU email email address.</p>';
 
     
