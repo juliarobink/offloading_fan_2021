@@ -26,6 +26,9 @@
     } elseif($_SESSION['Position'] == 56) {
         $numSaves = $startingcounter;
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
+     } elseif($_SESSION['Position'] == 82) {
+        $numSaves = $startingcounter;
+        echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     } else {
         $numSaves = $_SESSION['Trials'][$_SESSION['Position']-1]['Response']['newnumsavesvalue'];
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
