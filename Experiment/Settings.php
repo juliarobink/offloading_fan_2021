@@ -35,7 +35,7 @@
     $showConditionInfo     = TRUE;              // Show the stimuli and procedure file for each condition when hovering over the options
     $welcome        = 'Welcome to the experiment!';
     $expDescription = '<p> This experiment will run for approximately 30 minutes.  Your goal is to learn some information. </p>';
-    $askForLogin    = '<p> Please enter your TCU email email address.</p>';
+    $askForLogin    = '<p> Please enter your TCU email address.</p>';
 
     
     // scoring settings
@@ -46,8 +46,8 @@
     $MCitemsPerRow = 2;                         // sets how many items per row when using MCpic trials (use values 1-4; anything bigger causes problems which require css changes
     
     // done.php
-    $experimenterEmail = 'Cogagingmemorylab@gmail.com';
+    $experimenterEmail = 'tcucognitionlab@gmail.com';
     
     // getdata
-    $getdataPassword = 'psychb344';                        // to enable getdata, enter a string other than ''
+    $getdataPassword = 'getdata';                        // to enable getdata, enter a string other than ''
 ?>

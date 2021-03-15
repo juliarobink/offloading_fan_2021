@@ -93,71 +93,65 @@
 			<h3 class="consent-legend textcenter"></h3>
 			<textarea rows="20" cols="45" wrap="physical">
 			
-		Texas Christian University
-Fort Worth, Texas 
-
-CONSENT TO PARTICIPATE IN RESEARCH
+Informed Consent to Participate in Research 
 
 Title of Research:  Memory, Attention, and Learning
-
 Principal Investigator: Dr. Mary B. Hargis, Ph.D.
+Co-investigator:  Dr. Lauren Richmond, Ph.D.
+ 
+Overview: You are invited to participate in a research study. In order to participate, you must be an undergraduate student at TCU or Stony Brook University (aged 18 or older), you must be fluent in English, and you must have normal or corrected-to-normal hearing and vision. Taking part in this research project is voluntary.
 
-You are invited to participate in a research study. In order to participate, you must be an undergraduate student at TCU aged 18 or older, you must be fluent in English, and you must have normal or corrected-to-normal hearing and vision. Taking part in this research project is voluntary.
+Study Details: This study is being conducted at TCU, at Stony Brook University, and/or online via Sona Systems. The purpose of this research is to better understand how well people can direct attention to information that they want to later remember. We are interested what information you remember, as well as how accurately you can predict how well you will remember this information.  
 
-A summary of things you should know:
-•	This is a research study involving human subjects that has been approved by TCU Institutional Review Board.
-•	The purpose of this research is to better understand how well people can direct attention to information that they want to later remember. We are interested what information you remember, as well as how accurately you can predict how well you will remember this information.  This session will last between 1-3 hours, depending on what you had been previously informed to expect. There are few risks or discomforts, except possibly mild boredom.  
-•	You will not directly benefit from your participation in the research.  However, the results of the research may contribute to a better understanding of memory, attention, motivation, and learning.
-•	Taking part in this research project is voluntary. You don’t have to participate and you can stop at any time.
-Please take time to read this entire form and ask questions before deciding whether to take part in this research project.
+Participants: You are being asked to take part because you are over the age of 18 and volunteered to participate. If you decide to be in this study, you will be one of approximately 300 participants in this research study at TCU and/or at Stony Brook University. 
 
-What is the purpose of the research?  
-The purpose of the study is to learn more about memory, attention, and motivation, how we remember different types of information, and how one can predict memory performance.
+Voluntary Participation: Your participation is voluntary. You do not have to participate and may stop your participation at any time. If you withdraw from the study, you will be compensated for the time you spent. 
 
-How many people will participate in this study?  
-If you decide to be in this study, you will be one of approximately 200 participants in this research study.
+Confidentiality: Even if we publish the findings from this study, we will keep your information private and confidential. Anyone with authority to look at your records must keep them confidential.
+  
+What is the purpose of the research? The purpose of the study is to learn more about memory, attention, and motivation, how we remember different types of information, and how one can predict memory performance.
 
 What is my involvement for participating in this study?  
-If you choose to participate in this study, we would ask you to remember various types of information. For example, will study common words, word pairs, short statements, and words paired with numbers and then later recall or recognize the words and numbers. In some cases, participants will make judgments about how likely they will remember the information. We may also ask you to provide some basic demographic information about yourself, such as your age, your gender, and your ethnicity.
+If you choose to participate in this study, we would ask you to remember various types of information. For example, you might be presented with different types of words, text passages, images, or short statements, and you will be asked to remember them and/or make predictions about how well you think you will remember them.  In other cases, the words might be paired with numbers or monetary values that indicate how important it is to remember the information, and you will also make predictions about how well you will remember the words. We may also ask you to provide some basic demographic information about yourself, such as your age, your gender, and your ethnicity.
 
 We expect your participation to take about 1-3 hours. At the end of the study you may be asked to return 1-2 weeks later to participate in additional studies. We will not share your individual performance on these tasks with you; your data will be anonymized and combined with many other participants’ data before any conclusions are drawn. 
 
-How long am I expected to be in this study for and how much of my time is required?
-If you agree to participate, the session will last approximately 1-3 hours. You will not be obligated to participate in any future sessions. However, you may be asked at the end of this session to participate in additional studies. This participation would also be voluntary.
 
-What are the risks to me for participating in this study and how will they be minimized?
-We don’t believe there are any risks from participating in this research that are different for risk that you encounter in everyday life, except possibly mild boredom.
+Are there any alternatives and can I withdraw?
+You do not have to participate in this research study. 
+
+You should only take part in this study if you want to volunteer. You should not feel that there is any pressure to take part in the study. You are free to participate in this research or withdraw at any time. The decision to participate will not affect your student status.  
+
+What are the risks for participating in this study and how will they be minimized?
+COVID-19 risks will be minimized by having you participate online or in socially-distanced testing rooms. We don’t believe there are any risks from participating in this research that are different for risk that you encounter in everyday life, except possibly mild boredom.
 
 What are the benefits for participating in this study?
 Although you will not directly benefit from being in this study, others might benefit because the results of the research may contribute to a better understanding of memory, attention, motivation, and learning.
 
 Will I be compensated for participating in this study?
-You will receive course credit per hour for your participation. If you choose to withdraw from the study, you will be compensated for the time you have spent (minimum 1 credit). You will not be responsible for any costs to participate in this study.
+You will receive course credit for your participation. If you choose to withdraw from the study, you will be compensated for the time you have spent (for students, 1 class credit). 
 
-What is an alternative procedure(s) that I can choose instead of participating in this study?
-There are no known alternatives available to you other than not taking part in this study.  However, any significant new findings developed during the course of the research which may relate to your willingness to continue participation will be provided to you.
+What are my costs to participate in the study?
+To participate in the research, you will not need to pay for any costs. 
 
-How will my confidentiality be protected?  We plan to publish the results of this study. Efforts will be made to limit the use and disclosure of your personal information, including research study records, to people who have a need to review this information. We cannot promise complete secrecy. Your records may be reviewed by authorized University or other individuals who will be bound by the same provisions of confidentiality
+Is there any conflict of interest?
+No.
+
+How will my confidentiality be protected?  
+Every effort will be made to limit the use and disclosure of your personal information, including research study records, to people who have a need to review this information. We cannot promise complete secrecy. Your records may be reviewed by authorized University personnel or other individuals who will be bound by the same provisions of confidentiality.  
+We may publish what we learn from this study. If we do, we will not include your name. We will not publish anything that would let people know who you are.
 
 What will happen to the information collected about me after the study is over?
+We will keep your research data to use for future research or other purpose. Your name and other information that can directly identify you will be kept secure and stored separately from the research data collected as part of the project. 
+We may share your research data with other investigators without asking for your consent again, but it will not contain information that could directly identify you. We may upload your deidentified data to an open science repository such as the Open Science Framework (https://osf.io/). We will not share your research data with other investigators.
 
-We will keep your research data to use for future research. Your name and other information that can directly identify you will be kept secure and stored separately from the research data collected as part of the project 
+Who should I contact if I have questions regarding the study or concerns regarding my rights as a study participant? 
+You can contact Dr. Mary Hargis at m.hargis@tcu.edu, 817-257-4777 with any questions that you have about the study.
 
-We may share your research data with other investigators without asking for your consent again, but it will not contain information that could directly identify you. If we share your research data in a public repository, it will be stripped of any identifying information.
+Dr. Dru Riddle, Chair, TCU Institutional Review Board, (817) 257-6811, d.riddle@tcu.edu; or Dr. Floyd Wormley, Associate Provost of Research, research@tcu.edu
 
-Is my participation voluntary?
-It is totally up to you to decide to be in this research study. Participating in this study is voluntary. Even if you decide to be part of the study now, you may change your mind and stop at any time. You do not have to answer any questions you do not want to answer. If you decide to withdraw before this study is completed, tell the researcher that you wish to withdraw and data collection will cease. 
-
-Who should I contact if I have questions regarding the study?
-You can contact Dr. Mary Hargis at m.hargis@tcu.edu or 817-257-7410 with any questions that you have about the study.
-
-Who should I contact if I have concerns regarding my rights as a study participant? 
-Dr. Dru Riddle, Chair, TCU Institutional Review Board, (817) 257-6811, d.riddle@tcu.edu; or Ms. Lorrie Branson, JD, TCU Research Integrity Officer, (817) 257-4266, l.branson@tcu.edu.
-
-
-By signing this document, you are agreeing to be in this study. Make sure you understand what the study is about before you sign. You can contact the researchers to be given a copy of this document for your records. A copy also will be kept with the study records.  If you have any questions about the study after you sign this document, you can contact the study team using the information provided above.
-
-I understand what the study is about and my questions so far have been answered. I agree to take part in this study. 
+If you are participating online: By selecting "Agree to participate" below, you are agreeing to be in this study. Make sure you understand what the study is about before you agree. You will be given a copy of this document for your records upon request. If you have any questions about the study after you agree to participate, you can contact the study team using the information provided above.
+ 
 </textarea>
 </section>
 		
