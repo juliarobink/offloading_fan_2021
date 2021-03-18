@@ -2,6 +2,7 @@
     $compTime = 5;        // time in seconds to use for 'computer' timing
 
     $startingcounter = 7; // number to start for available saves per block
+    $totalNumItems = 12;
 
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
     $answers = explode('|', $answer);
@@ -19,18 +20,28 @@
 
     if($_SESSION['Position'] == 4) {
         $numSaves = $startingcounter;
+        $numItems = $totalNumItems;
+        echo "<h2><strong>&nbsp;Number of items remaining: " . $numItems . "</strong></h2>";
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     } elseif($_SESSION['Position'] == 30) {
         $numSaves = $startingcounter;
+        $numItems = $totalNumItems;
+        echo "<h2><strong>&nbsp;Number of items remaining: " . $numItems . "</strong></h2>";
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     } elseif($_SESSION['Position'] == 56) {
         $numSaves = $startingcounter;
+        $numItems = $totalNumItems;
+        echo "<h2><strong>&nbsp;Number of items remaining: " . $numItems . "</strong></h2>";
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
      } elseif($_SESSION['Position'] == 82) {
         $numSaves = $startingcounter;
+        $numItems = $totalNumItems;
+        echo "<h2><strong>&nbsp;Number of items remaining: " . $numItems . "</strong></h2>";
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     } else {
         $numSaves = $_SESSION['Trials'][$_SESSION['Position']-1]['Response']['newnumsavesvalue'];
+        $numItems = $_SESSION['Trials'][$_SESSION['Position']-1]['Response']['numitemsremval'];
+        echo "<h2><strong>&nbsp;Number of items remaining: " . $numItems . "</strong></h2>";
         echo "<h2><strong>&nbsp;Number of saves remaining: " . $numSaves . "</strong></h2>";
     }
 
@@ -102,6 +113,7 @@
         var drug_one = <?php echo json_encode($drugs_both_static[0]); ?>;
         var drug_two = <?php echo json_encode($drugs_both_static[1]); ?>;
         var interaction = <?php echo json_encode($interaction_static); ?>;
+        var numItemsRemaining = <?php echo $numItems; ?>;
 
         console.log("drug 1: " + drug_one);
         console.log("drug 2: " + drug_two);
@@ -151,6 +163,7 @@
         <input type="hidden" name="OldNewRT"          value="-1">
         <input type="hidden" name="numsavestatus" id="numsavestatus" value="NOSELECTION">
         <input type="hidden" name="newnumsavesvalue" id="newnumsavesvalue" value="<?php echo $numSaves; ?>">
+        <input type="hidden" name="numitemsremval" id="numitemsremval" value="<?php echo --$numItems; ?>">
         <input type="hidden" name="drugonestatic" id="drugonestatic" value="">
         <input type="hidden" name="drugtwostatic" id="drugtwostatic" value="">
         <input type="hidden" name="interactionstatic" id="interactionstatic" value="">
@@ -167,7 +180,7 @@
         var phaseStartTime;
 
         console.log("Num saves:");
-                console.log(numSavesRemaining);
+        console.log(numSavesRemaining);
 
         $(".oldNewAnsArea button").on("click", function() {
             $("input[name='OldNewRT']").val(COLLECTOR.getRT());
@@ -191,7 +204,7 @@
                 document.getElementById("newnumsavesvalue").value = numSavesRemaining;
                 // $("#FormSubmitButton").click();
             }
-            
+            document.getElementById("numitemsremval").value = --numItemsRemaining;
         });
     </script>
     
