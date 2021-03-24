@@ -2,7 +2,7 @@ Item,Trial Type,Timing,Text,Settings,Combination,Combo_Code,Fan_Condition,Severi
 0,instruct,user,"<p> In this experiment, imagine that you are visiting your doctor's office. Your doctor is describing some interactions that may occur between medications that you're taking.</p> <p> A <i> medication interaction</i> occurs when one drug affects the activity of another drug when both are used together.</p>  <p>Please advance to see more instructions.</p>",,,,,,,,off
 0,instruct,user,"<p>During this task, you will study several medication interactions, and your memory will later be tested. </p>
 <p>For each interaction that you study, you will see two medications and the outcome that would occur if they were to be taken together (e.g., ""dry mouth""). Each outcome will only occur once -- that is, only one pair of medications will result in dry mouth.  </p> <p>Please advance to see more instructions.</p>",,,,,,,,off
-0,instruct,user,"<p> Please remember as much information about the substances and their interactions as you can. </p>
+0,instruct,user,"<p> Please remember as much information about the substances and their interactions as you can. </p> <p> On each trial, you will have the opportunity to choose whether you would like to SAVE the interaction that is on the screen. </p> <p> If you choose to SAVE the interaction, you have have access to the entire interaction at a later time.</p> <p> Please click either ""SAVE"" or ""DON'T"" save on each trial to indicate your choice.</p>
 <p>When you're ready to begin the experiment, click ''Next.''</p> ",,,,,,,,off
 "2,3",interaction,7,,,"fake,fake",0,0,dry mouth,,1,study1
 "4,5",interaction,7,,,"fake,fake",0,0,itching,,2,study1
@@ -29,7 +29,8 @@ Item,Trial Type,Timing,Text,Settings,Combination,Combo_Code,Fan_Condition,Severi
 "20,24",interactionTest,user,,,"real,fake",1,1,nausea,,10,test1
 "20,25",interactionTest,user,,,"real,fake",1,1,diarrhea,,11,test1
 "20,26",interactionTest,user,,,"real,fake",1,1,arm pain,,12,test1
-0,instruct,user,<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p>,,,,,,,,off
+0,instruct,user,"<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p> <p> On each trial, you will have the opportunity to choose whether you would like to SAVE the interaction that is on the screen. </p> <p> If you choose to SAVE the interaction, you have have access to the entire interaction at a later time.</p> <p> Please click either ""SAVE"" or ""DON'T"" save on each trial to indicate your choice.</p>
+",,,,,,,,off
 "2,3",interaction,7,,,"fake,fake",0,0,dry mouth,,1,study2
 "4,5",interaction,7,,,"fake,fake",0,0,itching,,2,study2
 "6,7",interaction,7,,,"fake,fake",0,0,cough,,3,study2
@@ -55,7 +56,7 @@ Item,Trial Type,Timing,Text,Settings,Combination,Combo_Code,Fan_Condition,Severi
 "20,24",interactionTest,user,,,"real,fake",1,1,nausea,,10,test2
 "20,25",interactionTest,user,,,"real,fake",1,1,diarrhea,,11,test2
 "20,26",interactionTest,user,,,"real,fake",1,1,arm pain,,12,test2
-0,instruct,user,<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p>,,,,,,,,off
+0,instruct,user,"<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p> <p> On each trial, you will have the opportunity to choose whether you would like to SAVE the interaction that is on the screen. </p> <p> If you choose to SAVE the interaction, you have have access to the entire interaction at a later time.</p> <p> Please click either ""SAVE"" or ""DON'T"" save on each trial to indicate your choice.</p>",,,,,,,,off
 "2,3",interaction,7,,,"fake,fake",0,0,dry mouth,,1,study3
 "4,5",interaction,7,,,"fake,fake",0,0,itching,,2,study3
 "6,7",interaction,7,,,"fake,fake",0,0,cough,,3,study3
@@ -81,7 +82,7 @@ Item,Trial Type,Timing,Text,Settings,Combination,Combo_Code,Fan_Condition,Severi
 "20,24",interactionTest,user,,,"real,fake",1,1,nausea,,10,test3
 "20,25",interactionTest,user,,,"real,fake",1,1,diarrhea,,11,test3
 "20,26",interactionTest,user,,,"real,fake",1,1,arm pain,,12,test3
-0,instruct,user,<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p>,,,,,,,,off
+0,instruct,user,"<p> You will now see the same interactions again. Please try to remember as much information about them as you can. </p> <p> On each trial, you will have the opportunity to choose whether you would like to SAVE the interaction that is on the screen. </p> <p> If you choose to SAVE the interaction, you have have access to the entire interaction at a later time.</p> <p> Please click either ""SAVE"" or ""DON'T"" save on each trial to indicate your choice.</p>",,,,,,,,off
 "2,3",interaction,7,,,"fake,fake",0,0,dry mouth,,1,study4
 "4,5",interaction,7,,,"fake,fake",0,0,itching,,2,study4
 "6,7",interaction,7,,,"fake,fake",0,0,cough,,3,study4
