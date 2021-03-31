@@ -1,5 +1,10 @@
 <?php
     $compTime = 5;        // time in seconds to use for 'computer' timing
+
+    //create an array for shuffling side effect answers:
+
+    $interaction_list = array("dry mouth", "itching", "cough", "trembling", "flushing", "fever", "fatigue", "bloating", "clumsiness", "nausea", "diarrhea", "arm pain");
+    shuffle($interaction_list);
     
     $imageFilePath = dirname($_SESSION['Trial Types'][$trialType]['trial']) . '/bottle.jpg';
     $answers = explode('|', $answer);
@@ -59,7 +64,7 @@
         .drugName       {   position: absolute; top: 140px; left: 0px; width: 100%;   text-align: center;   font-family: Arial; font-size: 200%; }
         .drugName span  {   display: inline-block;  }
         .divider        {   font-size: 300%;    vertical-align: top;    margin: 120px 40px;  }
-        .sideEffect     {   font-size: 200%;    vertical-align: top;    margin-top: 132px;  text-align: center;  }
+        .sideEffect     {   font-size: 150%;    vertical-align: top;    margin-top: 70px;  text-align: center;  }
         .sideEffect select    {   font-size: 80%; }
         
 
@@ -249,20 +254,14 @@
         <?= $drugs[1] ?>
         <div class="divider">=</div>
         <div class="sideEffect">
+        <div class="sideEffect">
             <select name="Response">
                 <option disabled hidden selected></option>
-                <option>dry mouth</option>
-                <option>itching</option>
-                <option>cough</option>
-                <option>trembling</option>
-                <option>flushing</option>
-                <option>fever</option>
-                <option>fatigue</option>
-                <option>bloating</option>
-                <option>clumsiness</option>
-                <option>nausea</option>
-                <option>diarrhea</option>
-                <option>arm pain</option>
+                    <?php
+                        for($ii = 0; $ii < count($interaction_list); $ii++) {
+                            echo "<option>" . $interaction_list[$ii] . "</option>";
+                        }
+                    ?>
             </select>
         </div>
     </div>
